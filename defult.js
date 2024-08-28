@@ -43,4 +43,12 @@ function num3(a=4, b=5) {
 // num3(9,8);
 
 
+function sum(a=5, b=6) {
+    const result = a+b;
+    return result;
+}
+
+console.log(sum());
+
+
 
